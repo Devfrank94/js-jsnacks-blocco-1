@@ -12,11 +12,7 @@ let i = 0;
 for (let i = 0; i < 6; i++) {
   let numIns = parseInt(prompt("Scrivi un numero"));
   
-  if (!(numIns % 2)) {
-    console.log("Numero pari")
-  }else {
-    array.push(numIns)
-  }
+  if (numIns % 2) array.push(numIns)
 }
 console.log(array)
 
