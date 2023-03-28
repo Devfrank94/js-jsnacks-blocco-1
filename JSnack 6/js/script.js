@@ -5,6 +5,8 @@ const numIns = parseInt(prompt("inserisci un numero"));
 
 let cubo = numIns * numIns * numIns;
 
+for (let i = 0; i <= numIns; i++)
+
 const message = `Il cubo del numero inserito è ${cubo}`;
 
 document.getElementById('output').innerHTML = message;
